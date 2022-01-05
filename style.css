@@ -1,21 +1,22 @@
 .container {
     display: flex;
-    width: 960px;
-    height: 960px;
+    width: 640px;
+    height: 640px;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
 }
 
 .row {
     display: flex;
+    min-width: 960px;
+    height: 10px;
     align-items: center;
     justify-content: center;
 }
 
 .square {
     border: 1px solid red;
-    width: 20px;
-    height: 20px;
+    margin: 0;
 }
 
 .etched {
